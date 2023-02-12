@@ -4,5 +4,10 @@
   "bind_addr":"172.29.0.2",
   "bootstrap_expect":3,
   "data_dir":"/tmp",
-  "encrypt":"zXU9HQC/pnxKd6vDbWctdaiY8lNBI11BN+Fm/MYGTKo="
+  "encrypt":"zXU9HQC/pnxKd6vDbWctdaiY8lNBI11BN+Fm/MYGTKo=",
+  "retry_join":["172.29.0.4"],
+  "client_addr":"0.0.0.0",
+  "ui_config": {
+    "enabled": true
+  }
 }
